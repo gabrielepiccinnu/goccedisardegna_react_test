@@ -11,13 +11,13 @@ class Login extends React.Component {
         this.handlePassword = this.handlePassword.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
-}
+//}
 
-export default Login;
+
 
 // ...
 
-class Login extends React.Component {
+//class Login extends React.Component {
     // ...
 
     handleUsername( username ) {
@@ -44,11 +44,11 @@ class Login extends React.Component {
             </form>
         );
     }
-}
+//}
 
 //...
 
-class Login extends React.Component {
+//class Login extends React.Component {
     //...
 
     handleSubmit( e ) {
@@ -80,3 +80,5 @@ class Login extends React.Component {
 
     // ...
 }
+
+export default Login;

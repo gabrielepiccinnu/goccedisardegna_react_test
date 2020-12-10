@@ -8,12 +8,12 @@ class Dashboard extends React.Component {
         this.Logout = this.Logout.bind(this);
         this.getCurrentUser = this.getCurrentUser.bind(this);
     }
-}
+//}
 
-export default Dashboard;
+
 
 // ...
-class Dashboard extends React.Component {
+//class Dashboard extends React.Component {
     // ...
 
     componentDidMount() {
@@ -41,11 +41,11 @@ class Dashboard extends React.Component {
 
     }
    
-}
+//}
 
 // ...
 
-class Dashboard extends React.Component {
+//class Dashboard extends React.Component {
     // ...
     
     Logout() {
@@ -67,3 +67,6 @@ class Dashboard extends React.Component {
         );
     }
 }
+
+
+export default Dashboard;
